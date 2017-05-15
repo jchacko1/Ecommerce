@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+    <display-name>EcommerceTest</display-name>
+    <servlet>
+        <description/>
+        <display-name>Login</display-name>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>controller.Login</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/Login</url-pattern>
+     </servlet-mapping>
+    <servlet>
+        <description/>
+        <display-name>Register</display-name>
+        <servlet-name>Register</servlet-name>
+        <servlet-class>controller.Register</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Register</servlet-name>
+        <url-pattern>/Register</url-pattern>
+     </servlet-mapping>
+     <servlet>
+        <description/>
+        <display-name>Addtocart</display-name>
+        <servlet-name>Addtocart</servlet-name>
+        <servlet-class>controller.Addtocart</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Addtocart</servlet-name>
+        <url-pattern>/Addtocart</url-pattern>
+     </servlet-mapping>
+     <servlet>
+        <description/>
+        <display-name>Shoppingcart</display-name>
+        <servlet-name>Shoppingcart</servlet-name>
+        <servlet-class>controller.Shoppingcart</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Shoppingcart</servlet-name>
+        <url-pattern>/Shoppingcart</url-pattern>
+     </servlet-mapping>
+</web-app>
